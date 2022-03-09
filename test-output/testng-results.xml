@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-08T14:29:49 EST" name="Default suite" finished-at="2022-03-08T14:30:11 EST" duration-ms="21863">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.testRunner@65f095f8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-03-08T14:29:49 EST" name="Default test" finished-at="2022-03-08T14:30:11 EST" duration-ms="21863">
+      <class name="TestRunner.testRunner">
+        <test-method is-config="true" signature="LaunchAppURL()[pri:0, instance:TestRunner.testRunner@65f095f8]" started-at="2022-03-08T14:29:49 EST" name="LaunchAppURL" finished-at="2022-03-08T14:29:59 EST" duration-ms="9937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAppURL -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunner.testRunner@65f095f8]" started-at="2022-03-08T14:29:59 EST" name="setUpClass" finished-at="2022-03-08T14:29:59 EST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.testRunner@65f095f8]" started-at="2022-03-08T14:29:59 EST" name="tearDownClass" finished-at="2022-03-08T14:30:00 EST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="CloseAppURL()[pri:0, instance:TestRunner.testRunner@65f095f8]" started-at="2022-03-08T14:30:00 EST" name="CloseAppURL" finished-at="2022-03-08T14:30:11 EST" duration-ms="10898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseAppURL -->
+      </class> <!-- TestRunner.testRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
